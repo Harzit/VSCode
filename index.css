@@ -1,0 +1,63 @@
+header {
+    background-color: black;
+    color: white;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #0078d4;
+}
+
+.titlebar {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex {
+    display: flex;
+}
+
+.beechmei {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.linkcss {
+    padding-left: 20px;
+    color: gray;
+}
+
+.linkcss:hover {
+    color: white;
+}
+
+.buttonDownload {
+    background-color: #0078d4;
+    color: white;
+    border: none;
+    padding: 7px;
+    padding-left: 0px;
+    width: 120px;
+    padding-right: 0px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.searching {
+    border-radius: 5px;
+    border: 1px solid rgb(255, 255, 255, 0.2);
+    padding: 8px;
+    font-size: 16px;
+    background-color: black;
+}
